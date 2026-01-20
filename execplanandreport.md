@@ -15,7 +15,7 @@ of deliiverables:
 - A pattern analyzer and replacer designed for a suitable IR set
 - A dummy library containing the actual functions to replace the sensitive ones
 
-## Week 1
+## Week 1 - 2
 - Decide on the following:
     - What compiler toolchain to base this off of? (gcc, LLVM?)
         - Feasability of adding an extra pipeline to the selected toolchain
@@ -34,8 +34,13 @@ of deliiverables:
     - How to actually detect patterns and replace them without breaking the code?
     - How much memory isolation can be done at compile stage?(look into mmap restrictions)
 
-## Week 2 - Week 3
-This stretch will be targeting the development of the IR pattern analyzer, from the afforementioned
+Deliverables:
+
+1) Useful Research Papers related to IR pattern recognition
+2) Create decision with reasoning on each bullet point
+
+## Week 3 - 4
+This stretch will be targeting the development of the IR pattern analyzer, from the aforementioned
 list of "malicious" patterns to look out for. I'll study these patterns and try to come up with a
 starter list for this project, and then look into what could be added on as well. As I am planning this,
 a worry is how to continue program flow when alot of these patterns will be replaced by dummy statements.
@@ -73,3 +78,5 @@ Deliverables:
 1) Create an in-depth behavior analysis experience, something beyond just logging.
 2) Create a custom environment designed to run these special sandboxed executables. (Could be a whole new project?).
 3) Expand the "starter" list.
+
+LaTeX version of doc: https://www.overleaf.com/read/ddpfvycmfvzm#1edb44 
